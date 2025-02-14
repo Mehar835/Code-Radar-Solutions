@@ -6,4 +6,7 @@ int main(){
     if(a%55==0){
         printf("Divisible");
     }
+    else{
+        printf("Not Divsible");
+    }
 }
