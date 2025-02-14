@@ -15,4 +15,4 @@ int main(){
     else if(a>=60){
         printf("D");}
     else if(a<60){
-        printf("E");}}
+        printf("F");}}
