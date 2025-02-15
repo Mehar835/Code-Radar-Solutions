@@ -6,10 +6,10 @@ int main(){
     if(a%15==0){
         printf("Divsible by Both");
     }
-    if(a%3==0){
+    else if(a%3==0){
         printf("Divisible by 3");
     }
-    if(a%5==0){
+    else if(a%5==0){
         printf("Divisible by 5");
     }
     else{
