@@ -4,12 +4,12 @@ int main(){
     int a;
     scanf("%d",&a);
     if(a==2){
-        printf("**");
+        printf("**\n");
         printf("**");
     }
  else if(a==3){
-        printf("***");
-        printf("* *");
+        printf("***\n");
+        printf("* *\n");
         printf("***");
     }
 }
