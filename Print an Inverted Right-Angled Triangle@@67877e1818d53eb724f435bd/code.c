@@ -51,7 +51,7 @@
 int main(){
     int a, i;
     scanf("%d",&a);
-   for (i=a,i>=1,i=i-1){
+   for (i=a;i>=1;i=i-1){
     printf("*\n"*i);
    }
     
