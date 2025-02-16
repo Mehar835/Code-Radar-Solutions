@@ -49,10 +49,13 @@
 // }
 #include<stdio.h>
 int main(){
-    int a, i;
+    int a, i,j;
     scanf("%d",&a);
    for (i=a;i>=1;i=i-1){
-    printf("*\n"*i);
+   for (j=i;j>=1;j=j-1){
+    printf("*");
+   }
+    printf("n");
    }
     
     
