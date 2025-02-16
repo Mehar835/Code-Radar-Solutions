@@ -55,7 +55,7 @@ int main(){
    for (j=i;j>=1;j=j-1){
     printf("*");
    }
-    printf("n");
+    printf("\n");
    }
     
     
