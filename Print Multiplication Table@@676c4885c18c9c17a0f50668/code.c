@@ -1,6 +1,6 @@
 // Your code here...
 int main(){
-    int a;
+    int a,i,j;
     scanf("%d",&a);
    for (i=1;i<=10;i=i+1){
    for (j=1;j<=10;j=j+1){
