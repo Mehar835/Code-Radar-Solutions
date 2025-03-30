@@ -2,10 +2,10 @@
 
 // Function to print Fibonacci series
 void fibonacciSeries(int n) {
-    int a = 0, b = 1, next;
+    long long int a = 0, b = 1, next;
 
     for (int i = 0; i < n; i++) {
-        printf("%d ", a);
+        printf("%lld ", a);
         next = a + b;
         a = b;
         b = next;
@@ -16,7 +16,8 @@ void fibonacciSeries(int n) {
 int main() {
     int n;
 
-    // Read the number of terms
+    // Prompt user for input
+    printf("Enter number of terms: ");
     scanf("%d", &n);
 
     // Validate input
