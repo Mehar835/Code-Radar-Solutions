@@ -24,6 +24,6 @@ return 0;
 
 // Call the fibonacciSeries function (to be implemented by the student)
 
-fibonacciSeries(n); A
+// fibonacciSeries(n); A
 
 return 0;}
