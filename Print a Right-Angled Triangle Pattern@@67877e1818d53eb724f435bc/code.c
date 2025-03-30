@@ -19,40 +19,40 @@ int main(){
     }
     else if(a==2){
         printf("*");
-        printf("* *")
+        printf("* *");
     }
     else if(a==3){
         printf("*");
-        printf("* *")
-        printf("* * *")
+        printf("* *");
+        printf("* * *");
     }
     else if(a==4){
         printf("*");
-        printf("* *")
-        printf("* * *")
-        printf("* * * *")
+        printf("* *");
+        printf("* * *");
+        printf("* * * *");
     }
     else if(a==5){
         printf("*");
-        printf("* *")
-        printf("* * *")
-        printf("* * * *")
-        printf("* * * * *")
+        printf("* *");
+        printf("* * *");
+        printf("* * * *");
+        printf("* * * * *");
     else if(a==6){
         printf("*");
-        printf("* *")
-        printf("* * *")
-        printf("* * * *")
-        printf("* * * * *")
-        printf("* * * * * *")
+        printf("* *");
+        printf("* * *");
+        printf("* * * *");
+        printf("* * * * *");
+        printf("* * * * * *");
     }
     else if(a==7){
         printf("*");
-        printf("* *")
-        printf("* * *")
-        printf("* * * *")
-        printf("* * * * *")
-        printf("* * * * * *")
-        printf("* * * * * * *")
+        printf("* *");
+        printf("* * *");
+        printf("* * * *");
+        printf("* * * * *");
+        printf("* * * * * *");
+        printf("* * * * * * *");
     }
 }}
