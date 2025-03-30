@@ -3,11 +3,6 @@
 
 // You
 
-esc
-
-?
-
-12
 
 int main() {
 
@@ -31,4 +26,4 @@ return 0;
 
 fibonacciSeries(n); A
 
-return 0;
+return 0;}
