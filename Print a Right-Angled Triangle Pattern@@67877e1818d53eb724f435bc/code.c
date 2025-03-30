@@ -10,49 +10,100 @@
 //     printf("\n");
 //    }
 //     }
-# include <stdio.h>
-int main(){
+// # include <stdio.h>
+// int main(){
+//     int a;
+//     scanf("%d",&a);
+//     if(a==1){
+//         printf("*");
+//     }
+//     else if(a==2){
+//         printf("*");
+//         printf("* *");
+//     }
+//     else if(a==3){
+//         printf("*");
+//         printf("* *");
+//         printf("* * *");
+//     }
+//     else if(a==4){
+//         printf("*");
+//         printf("* *");
+//         printf("* * *");
+//         printf("* * * *");
+//     }
+//     else if(a==5){
+//         printf("*");
+//         printf("* *");
+//         printf("* * *");
+//         printf("* * * *");
+//         printf("* * * * *");
+//     else if(a==6){
+//         printf("*");
+//         printf("* *");
+//         printf("* * *");
+//         printf("* * * *");
+//         printf("* * * * *");
+//         printf("* * * * * *");
+//     }
+//     else if(a==7){
+//         printf("*");
+//         printf("* *");
+//         printf("* * *");
+//         printf("* * * *");
+//         printf("* * * * *");
+//         printf("* * * * * *");
+//         printf("* * * * * * *");
+//     }
+// }
+#include <stdio.h>
+
+int main() {
     int a;
-    scanf("%d",&a);
-    if(a==1){
-        printf("*");
+    scanf("%d", &a);
+
+    if (a == 1) {
+        printf("*\n");
+    } 
+    else if (a == 2) {
+        printf("*\n");
+        printf("* *\n");
+    } 
+    else if (a == 3) {
+        printf("*\n");
+        printf("* *\n");
+        printf("* * *\n");
+    } 
+    else if (a == 4) {
+        printf("*\n");
+        printf("* *\n");
+        printf("* * *\n");
+        printf("* * * *\n");
+    } 
+    else if (a == 5) {
+        printf("*\n");
+        printf("* *\n");
+        printf("* * *\n");
+        printf("* * * *\n");
+        printf("* * * * *\n");
+    } 
+    else if (a == 6) {  // Fixed missing closing brace
+        printf("*\n");
+        printf("* *\n");
+        printf("* * *\n");
+        printf("* * * *\n");
+        printf("* * * * *\n");
+        printf("* * * * * *\n");
+    } 
+    else if (a == 7) {
+        printf("*\n");
+        printf("* *\n");
+        printf("* * *\n");
+        printf("* * * *\n");
+        printf("* * * * *\n");
+        printf("* * * * * *\n");
+        printf("* * * * * * *\n");
     }
-    else if(a==2){
-        printf("*");
-        printf("* *");
-    }
-    else if(a==3){
-        printf("*");
-        printf("* *");
-        printf("* * *");
-    }
-    else if(a==4){
-        printf("*");
-        printf("* *");
-        printf("* * *");
-        printf("* * * *");
-    }
-    else if(a==5){
-        printf("*");
-        printf("* *");
-        printf("* * *");
-        printf("* * * *");
-        printf("* * * * *");
-    else if(a==6){
-        printf("*");
-        printf("* *");
-        printf("* * *");
-        printf("* * * *");
-        printf("* * * * *");
-        printf("* * * * * *");
-    }
-    else if(a==7){
-        printf("*");
-        printf("* *");
-        printf("* * *");
-        printf("* * * *");
-        printf("* * * * *");
-        printf("* * * * * *");
-        printf("* * * * * * *");
-    }
+
+    return 0;
 }
